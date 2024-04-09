@@ -1,0 +1,31 @@
+package aplication;
+
+import java.util.Scanner;
+
+import entities.Produto;
+
+public class MainAula66 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		
+		Produto p1 = new Produto();
+		System.out.println("Enter Product Data: ");
+		System.out.print("Name: ");
+		p1.nome = sc.next();
+		System.out.print("Price: ");
+		p1.price = sc.nextDouble();
+		System.out.print("Quantity in Stock: ");
+		p1.quantity = sc.nextInt();
+		
+		System.out.println(p1);
+		System.out.print("\n Enter the number of products to be added in  stock: ");
+		p1.addProducts(sc.nextInt());
+		System.out.println("\n" + p1);
+		
+		System.out.println();
+		sc.close();
+
+	}
+
+}

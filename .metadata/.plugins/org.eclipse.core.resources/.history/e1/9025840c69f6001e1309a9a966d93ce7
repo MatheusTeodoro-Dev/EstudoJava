@@ -1,0 +1,22 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Aula161 {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter number of employees: ");
+		int emp = sc.nextInt();
+		sc.nextLine();
+		for (int i =1; i>=emp; i++) {
+			System.out.println("Employee #" +i+ " data: ");
+			
+		}
+		
+		
+		sc.close();
+	}
+
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="entities.Rectangle"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.lang.ClassCircularityError"/>
+    <fullyQualifiedTypeName name="entities.Calculator"/>
+    <fullyQualifiedTypeName name="utility.Calculator"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="utility.CurrencyConverter"/>
+    <fullyQualifiedTypeName name="entities.ContaBancaria"/>
+    <fullyQualifiedTypeName name="entities.Produto"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="java.time.ZoneId"/>
+    <fullyQualifiedTypeName name="java.time.temporal.ChronoUnit"/>
+    <fullyQualifiedTypeName name="java.time.Duration"/>
+    <fullyQualifiedTypeName name="java.util.TimeZone"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="java.time.Instant"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="entities.Order"/>
+    <fullyQualifiedTypeName name="entities.enums.OrderStatus"/>
+    <fullyQualifiedTypeName name="entities.Acount"/>
+    <fullyQualifiedTypeName name="entities.SavingsAccount"/>
+    <fullyQualifiedTypeName name="entities.BusinessAcount"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
+</qualifiedTypeNameHistroy>
