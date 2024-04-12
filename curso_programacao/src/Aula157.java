@@ -6,7 +6,7 @@ public class Aula157 {
 
 	
 	public static void main(String[] args) {
-		
+		/*
 		Acount acc = new Acount(1001, "Alex", 0.0);
 		BusinessAcount bacc = new BusinessAcount(1002, "Maria", 0.0, 500.0);
 		
@@ -34,6 +34,6 @@ public class Aula157 {
 		}
 		
 		
-		
+		*/
 	}
 }

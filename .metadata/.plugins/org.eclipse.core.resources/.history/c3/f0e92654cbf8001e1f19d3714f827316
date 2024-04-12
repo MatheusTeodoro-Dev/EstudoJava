@@ -1,0 +1,30 @@
+package entities;
+
+public class ContribuinteJuridico extends Contribuinte{
+
+	private Integer totalFuncionarios;
+	
+	public ContribuinteJuridico() {
+		super();
+	}
+	
+	public ContribuinteJuridico(String nome, Double rendaAnual, Integer totalFuncionarios) {
+		super(nome, rendaAnual);
+		this.totalFuncionarios = totalFuncionarios;
+	}
+	
+	public Integer getTotalFuncionarios() {
+		return totalFuncionarios;
+	}
+
+	public void setTotalFuncionarios(Integer totalFuncionarios) {
+		this.totalFuncionarios = totalFuncionarios;
+	}
+
+	@Override
+	public double calculoImposto() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}
