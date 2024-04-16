@@ -1,0 +1,22 @@
+import java.time.LocalDate;
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.Reservation;
+
+public class Aula173 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		Locale.setDefault(Locale.US);
+		LocalDate datainicio = LocalDate.of(2019, 9, 23).format("dd/MM/YYYY");
+		LocalDate dataFim = LocalDate.of(2019, 9, 26);
+		
+		Reservation r1 = new Reservation(8021, datainicio, dataFim);
+		
+		System.out.println(r1);
+		
+		sc.close();
+	}
+
+}
